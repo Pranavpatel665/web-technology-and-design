@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Class Schedule</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Verdana', sans-serif;
+            background-color: #eef2f7;
+            color: #222;
+        }
+
+        h1 {
+            text-align: center;
+            color: #0056b3;
+            margin-bottom: 30px;
+        }
+
+        .schedule-table {
+            width: 95%;
+            margin: auto;
+            border-spacing: 0;
+            border: 1px solid #bbb;
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .schedule-table th, .schedule-table td {
+            padding: 14px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .schedule-table th {
+            background-color: #004085;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        .schedule-table tbody tr:nth-child(odd) {
+            background-color: #f1f5fa;
+        }
+
+        .schedule-table tbody tr:hover {
+            background-color: #dbe7f1;
+        }
+
+        td[rowspan] {
+            background-color: #fff;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Weekly Academic Timetable</h1>
+
+    <table class="schedule-table">
+        <thead>
+            <tr>
+                <th>Weekday</th>
+                <th>11:00 - 11:50 AM</th>
+                <th>11:50 - 12:30 PM</th>
+                <th>12:30 - 1:30 PM</th>
+                <th>1:30 - 2:20 PM</th>
+                <th>2:20 - 3:10 PM</th>
+                <th>3:10 - 3:20 PM</th>
+                <th>3:20 - 4:10 PM</th>
+                <th>4:10 - 5:00 PM</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Machine Learning Intro</td>
+                <td>Machine Learning Intro</td>
+                <td rowspan="5">Lunch Break</td>
+                <td>Web Tech & Design</td>
+                <td>Web Tech & Design</td>
+                <td rowspan="5">Tea Break</td>
+                <td>Operating Systems</td>
+                <td>Java Programming</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Java Programming</td>
+                <td>NSS / NCC</td>
+                <td>Library Hour</td>
+                <td>WTD (RM)</td>
+                <td>Java Practical</td>
+                <td>Java Practical</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Operating Systems</td>
+                <td>Group Discussion</td>
+                <td>WTD Concepts</td>
+                <td>OS Insights</td>
+                <td>Computer Science</td>
+                <td>Chemistry</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Operating Systems</td>
+                <td>Computer Science</td>
+                <td>Mathematics</td>
+                <td>Physics</td>
+                <td>Lab Work</td>
+                <td>Elective Subject</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Free Period</td>
+                <td>Machine Learning Intro</td>
+                <td>Physics</td>
+                <td>English</td>
+                <td>NCC / NSS</td>
+                <td>NCC / NSS</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
